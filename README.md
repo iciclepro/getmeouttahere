@@ -1,7 +1,17 @@
 # getmeouttahere
 wildhacks 2016
 
-1) Install the Twilio API
-2) Run with: python3 run.py
-3) Install ngrok and run:
-4) Log in to your Twilio Account and update the server address
+INSTALLATION
+
+1) Install the Twilio API (specifically the twilio package and flask)
+
+2) Install ngrok
+
+RUNNING IT
+
+1) ./ngrok http 5000
+
+2) Log in to your Twilio Account and update the server address
+
+3) python3 run.py
+
